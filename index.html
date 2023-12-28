@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Solar Energy Solutions</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header-container">
+        <header>
+          <img
+            src="img/logo.jpg"
+            alt="Solar Energy Solutions Logo"
+            class="logo"
+          />
+          <h1>Solar Energy Solutions</h1>
+        </header>
+
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#about">About Us</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+
+      <div class="banner">
+        <img src="img/banner.jpg" alt="Solar Energy Solutions Banner" />
+      </div>
+
+      <div class="main-container">
+        <section id="home">
+          <h2>Welcome to Solar Energy Solutions</h2>
+          <p>
+            Providing sustainable and efficient solar solutions for a brighter
+            future.
+          </p>
+          <img src="img/solar-panel-image.jpg" alt="Solar Panels" />
+        </section>
+
+        <section id="about">
+          <h2>About Us</h2>
+          <p>
+            We are dedicated to harnessing the power of the sun to create clean
+            and renewable energy.
+          </p>
+        </section>
+
+        <section id="services">
+          <h2>Our Services</h2>
+          <ul>
+            <li>Residential Solar Panel Installation</li>
+            <li>Commercial Solar Solutions</li>
+            <li>Solar Panel Maintenance</li>
+          </ul>
+        </section>
+
+        <section id="contact">
+          <h2>Contact Us</h2>
+          <p>Have questions or need a quote? Reach out to us!</p>
+          <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required /><br />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required /><br />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea
+            ><br />
+
+            <input type="submit" value="Submit" />
+          </form>
+        </section>
+
+        <!-- Additional content -->
+        <section>
+          <h2>Why Choose Solar Energy?</h2>
+          <p>
+            Solar energy is a clean and renewable source of power that offers
+            numerous benefits, including:
+          </p>
+          <ul>
+            <li>Reduced electricity bills</li>
+            <li>Lower carbon footprint</li>
+            <li>Government incentives and rebates</li>
+            <li>Minimal maintenance costs</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Our Team</h2>
+          <p>
+            Meet our dedicated team of experts who are passionate about solar
+            energy and sustainability.
+          </p>
+        </section>
+      </div>
+
+      <footer>&copy; 2023 Solar Energy Solutions</footer>
+    </div>
+  </body>
+</html>
